@@ -1,0 +1,18 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+root = true
+
+# All files
+[*]
+indent_style = tab
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# C and Header files
+[*.{c,h}]
+indent_size = 4
+
+# Does this even work with C?
+csharp_space_after_keywords_in_control_flow_statements = false
+csharp_new_line_before_else = false
+
